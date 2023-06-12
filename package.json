@@ -1,0 +1,35 @@
+{
+  "name": "@chainlink/aa-erc712",
+  "version": "0.0.1",
+  "description": "Chainlink Account Abstraction compatible with ERC712 signatures",
+  "main": "index.js",
+  "scripts": {
+    "compile": "yarn hardhat compile",
+    "test": "hardhat test"
+  },
+  "author": "Aler Denisov",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@types/express": "^4.17.17",
+    "chai": "^4.3.7",
+    "execa": "^7.1.1",
+    "express": "^4.18.2",
+    "hardhat": "^2.15.0",
+    "hardhat-exposed": "^0.3.6"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.6.0",
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.9.1",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/memorystream": "^0.3.1",
+    "bignumber.js": "^9.1.1",
+    "cors": "^2.8.5",
+    "hardhat-deploy": "^0.11.30",
+    "memorystream": "^0.3.1",
+    "typechain": "^8.2.0"
+  }
+}
